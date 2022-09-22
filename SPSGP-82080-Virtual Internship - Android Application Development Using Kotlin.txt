@@ -1,0 +1,84 @@
+
+                               AN ANDROID DEV PROJECT REPORT  
+                                                            ON
+                                             GROCERYLIST APPLICATION USING
+                                   KOTLIN IN ANDROID STUDIO
+ 
+                 SUBMITTED BY:- MOHMMED KHALEEL UDDIN SIDDIQUI
+        
+       GROCERYLIST APPLICATION       
+        OBJECTIVE:- The main aim of the object is to list out the items ,that user need to to buy simply. whenever user goes out to a grocery stores,users will not able to remember all the items that he wants to buy and this grocery application will helps the user to solve their day to day struggle by keeping the note. 
+
+ Problem Statement:- As we can't remember everything,users forget to buy things they want to buy however with assistance of this app users can make the list of grocery items.
+ 
+Problem Description:-  The primary  goal of this project is to make an app that stores the user items in a list,where user can easily look into it and can go throgh the list. The user can be modify and delete the added item in the list. To develop this application system, we have some specific goals such as:
+
+✓ we need to Develop a system such that users can add item details like product name, product Quantity, and Product Price. 
+✓ Develop a database room that is used to store the user data which already been added by the user in the cart and the user can also remove the previously added item in the cart.
+ ✓ Develop a good UI design that user friendly to the user.
+ ✓we need to Develop a good UI that is supported for all android devices.
+
+prerequrities:- As a developer we are going to to build the application we need some requrities to accomplish the application.
+● we need to install Android studio in our system where we as a developer going to run the application
+● Before writing the code we need to desing the user interface for the application by using figma.
+● After desinging the UI for the application ,we need to start building the application.
+
+         
+. Now we will code the UI part of the row in the list.below we can observe that the give inputs are working correctly now we need to go further for UI part.
+ Go to app > res > layout. Right-click on layout, go to new, and then add a Layout Resource File and name it as GroceryAdapter.We will code adapter class for recycler view. In the GroceryAdapter class, we will add constructor value by storing entities class as a list in list variable and create an instance of the view model. In Grocery Adapter we will override three functions: onCreateViewHolder, getItemCount, and onbindViewHolder,
+ we will also create an inner class called grocery view holder. Go to the app > java > com.example.application-name. Right-click on com.example.application-name go to new and create a new Package called Adapter and then right-click on Adapter package and create a Kotlin file/class name it GroceryAdapter.
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+OUTPUT:-
+To enter grocery item, quantity, and price from the user we have to create an interface. 
+To implement this interface we will use DialogBox. First we need tp create an UI of dialog box.
+ In this dialog box we will add three edit text and two text view. Two text view one for save and other for cancel. After clicking the save text all data saved into the database and by clicking on the cancel text dialog box closes. Go to the app > res > layout. Right-click on layout, go to new and then add a Layout Resource File and name it as GroceryDialog. To add a clicklistener on save text we have to create an interface first in which we create a function. Go to the app > java > com.example.applicationname > UI. Right-click on the UI package and create a Kotlin file/class and create an interface name it as DialogListener.
+after completing all the pas now we need all the sub parts in the main program file and run the application.the application will run sucessfully.
+(NOTE: develpoer change the background color according there choice,the application is responvies ,the user needed to be guided that this application will work and can be helpful to him.
+below is the expected output for the above mention problem.
+
+
+
+
+
+
+
+
+Conclusion:-
+ This grocery application will help to store the list of data items include name of item, price and quantity required. Users can store his data in the list, the grocery application very helpful to users.We can even update this application in future by adding images to thr particular items and we even make seprate day to day collection of our grocery item.
+
+
+NOTE:-  
+This application will run sucesfully in all android devices .
+The below mention links contains the source code of the application program.
+The source might show crash error in older version of Android studio.as the software has update which has bought lot changes in the that system software.
+
+
+URL OF PROJECT:-
+
+ GitHub Link:- 
+https://github.com/smartinternz02/SPSGP-82080-Virtual-Internship---Android-Application-Development-Using-Kotlin
+ 
+Smart Internz Registered ID: SPS_APL_20220096245
+
+
+ Acknowledgements:
+
+I wish to show my appreciation regrading this project.
+the efforts and hard of this platform for counducting this virtual internship program and giving us opportunity .
+I would like to thanks our mentors Mr sandeep and bhagya for bring available to clear all my doubts regarding the sessions and project
+I would like to extend my sincere thanks to all of them. I am highly indebted to SMARTINTERNZ (Experiential Learning & Remote Externship Platform to bring academia & industry very close for a common goal of talent creation) for their guidance and constant supervision as well as for providing necessary information.
+	
